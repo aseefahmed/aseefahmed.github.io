@@ -157,7 +157,7 @@ h3.main-heading::after {
 /*-------------------------------------------------------*/
 
 header {
-    height: 60px;
+    height: 100px;
     margin-bottom: 20px;
     overflow: hidden;
 }

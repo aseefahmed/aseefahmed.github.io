@@ -245,9 +245,7 @@ table th[class*=col-] {
         <!-- /Logo -->
 
         <!-- Social Icons -->
-        <img src="images/zend.jpg" width="100px">
-        <img src="images/rhce.jpg" width="220px">
-        <div align="right" style="margin-top:-90px">
+        <div align="right">
                         <h1>ASEEF AHMED&nbsp;&nbsp;</h1>
                         <h3>Web & Linux Expert &nbsp;&nbsp;</h3>
         </div>
@@ -275,8 +273,6 @@ table th[class*=col-] {
                                 <strong>Email: </strong> contact@aseefahmed.net<br>
                                 <strong>Web: </strong> aseefahmed.net
                                 <br><br>
-
-
                             </p>
                         </div>
                     </li>
@@ -366,6 +362,7 @@ table th[class*=col-] {
                         </div>
                     </li>
                     <li>
+<br><br><br>
                         <div class="timelineUnit">
                             <h4 style="font-weight: bold;">Nexus Web Consultancy Ltd. (London) <span class="timelineDate">2011 - 2015</span></h4>
                             <h5 style="color:red;font-weight:bold;">Senior Software Enineer (ASP.NET & PHP)</h5>
@@ -393,7 +390,7 @@ table th[class*=col-] {
                             </p>
                         </div>
                     </li>
-                    <li>
+                    <li><br><br><br><br><br>
                         <div class="timelineUnit">
                             <h4 style="font-weight: bold;">BJIT Ltd.(Bangladesh-Japan IT)<span class="timelineDate">2008 - 2009</span></h4>
                             <h5 style="color:red;font-weight:bold;">PHP Developer</h5>
@@ -674,6 +671,7 @@ table th[class*=col-] {
                         <div class="rating" data-rat="6"></div>
                     </li>
                 </ul>
+                <br><br><br><br><br><br>
                 <h3 class="main-heading">Version Control System</h3>
                 <ul class="skills">
                     <li>
@@ -689,6 +687,7 @@ table th[class*=col-] {
                         <div class="rating" data-rat="6"></div>
                     </li>
                 </ul>
+                <br><br><br><br><br>
                 <h3 class="main-heading">Linux Server</h3>
                 <ul class="skills">
                     <li>
