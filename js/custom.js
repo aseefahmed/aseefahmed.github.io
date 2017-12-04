@@ -224,29 +224,7 @@ jQuery(document).ready(function(){
 		 });
 		return false;
 	});	
-	/* ---------------------------------------------------------------------- */
-	/*	Google Maps
-	/* ---------------------------------------------------------------------- */
 	
-	// Needed variables  
-	var $map 				= $('#map'),
-		$tabContactClass 	= ('tab-contact'),
-		$lat 				= '23.775009',
-		$lon 				= '90.415685';
-
-	$map.gmap().bind('init', function(ev, map) {
-		$map.gmap('addMarker', {'position': $lat +','+ $lon  , 'bounds': true}).click(function() {
-			$map.gmap('openInfoWindow', {'content': 'Hello World!'}, this);
-		});
-		$map.gmap('option', 'zoom', 16);
-	});
-
-	// Refresh Map
-	$content.bind('easytabs:after', function(evt,tab,panel) {
-		$map.gmap('refresh'); 
-  	});
-
-      
   
 
 });	
