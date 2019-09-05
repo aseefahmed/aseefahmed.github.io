@@ -1,0 +1,24 @@
+{
+  "name": "aseefahmed.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "minify.js",
+  "dependencies": {
+    "node-minify": "^3.6.0",
+    "uglify-js": "^3.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aseefahmed/aseefahmed.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aseefahmed/aseefahmed.github.io/issues"
+  },
+  "homepage": "https://github.com/aseefahmed/aseefahmed.github.io#readme"
+}
