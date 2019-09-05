@@ -1,7 +1,19 @@
 const minify = require('@node-minify/core');
 const uglifyjs = require('@node-minify/uglify-js');
 const sqwish = require('@node-minify/sqwish');
+const htmlMinifier = require('@node-minify/html-minifier');
 
+minify({
+  compressor: htmlMinifier,
+  input: 'index-unminified.html',
+  output: 'index.html',
+  options: {
+    minifyJS: false
+  }
+}).then(function(min) {
+  console.log('html min');
+  console.log(min);
+});
 
 minify({
   compressor: uglifyjs,
